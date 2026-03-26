@@ -31,6 +31,14 @@
     section {
       margin: 44px 0;
     }
+    .iframe-outer-container {
+      display: inline-block;
+      background-color: #fff;
+      width: 80%;
+    }
+    .iframe-outer-container iframe{
+      width: 100%;
+    }
   </style>
 </head>
 
@@ -55,8 +63,8 @@
       <li>10. The Time Machine</li>
     </ol>
   </div>
-  <section>
-    <iframe src=https://linkco.re/embed/7dTyr8XE width="300" height="600" frameborder="0"></iframe>
+  <section class="iframe-outer-container">
+    <iframe src="https://linkco.re/embed/7dTyr8XE" width="300" height="600" frameborder="0"></iframe>
   </section>
   <div class="un">
     <h4>空想滑走路 Release Notes</h4>
